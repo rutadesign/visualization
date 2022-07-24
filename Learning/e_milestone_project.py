@@ -8,7 +8,7 @@ import pandas as pd
 
 app = dash.Dash()
 
-nsdq = pd.read_csv('NASDAQcompanylist.csv')
+nsdq = pd.read_csv('data/NASDAQcompanylist.csv')
 nsdq.set_index('Symbol', inplace=True)
 options = []
 for tic in nsdq.index:

@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv('gapminderDataFiveYear.csv')
+df = pd.read_csv('data/gapminderDataFiveYear.csv')
 
 app = dash.Dash()
 

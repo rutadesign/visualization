@@ -6,7 +6,7 @@ import pandas as pd
 
 app = dash.Dash()
 
-df = pd.read_csv('wheels.csv')
+df = pd.read_csv('data/wheels.csv')
 
 app.layout = html.Div([
     dcc.RadioItems(

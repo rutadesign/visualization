@@ -8,7 +8,7 @@ from numpy import random
 
 app = dash.Dash()
 
-df = pd.read_csv('mpg.csv')
+df = pd.read_csv('data/mpg.csv')
 
 # Add a random "jitter" to model_year to spread out the plot
 df['year'] = df['model_year'] + random.randint(-4,5,len(df))*0.10

@@ -7,7 +7,7 @@ import pandas as pd
 
 app = dash.Dash()
 
-df = pd.read_csv('mpg.csv')
+df = pd.read_csv('data/mpg.csv')
 
 features = df.columns
 
